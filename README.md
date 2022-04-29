@@ -193,5 +193,7 @@ JDK8이상 설치: 오라클자바(라이센스)
 전공이름 = majorName(자바) = major_name(DB데이터베이스)
 int = Integer(null허용)
 long(기본형)null공백X 
+김일국ghpkimilguk
+_pUbRCwXrkIPrLjgj5VY2huczEAlE591YqKJ1
 = Long(클래스:참조형 특징 null공백이 가능)
 ```

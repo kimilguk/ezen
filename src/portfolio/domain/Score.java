@@ -7,10 +7,10 @@ package portfolio.domain;
 public class Score {
 	//멤버변수
 	private int studentId;//학번
-	private String subject;//과목명
+	private Subject subject;//과목클래스
 	private int point;//과목점수
 	//메인메서드에서 학생점수를 추가할 때 사용하는 초기값 생성한는 기능(아래)
-	public Score(int studentId, String subject, int point) {
+	public Score(int studentId, Subject subject, int point) {
 		this.studentId = studentId;
 		this.subject = subject;
 		this.point = point;
@@ -22,10 +22,10 @@ public class Score {
 	public void setStudentId(int studentId) {
 		this.studentId = studentId;
 	}
-	public String getSubject() {
+	public Subject getSubject() {
 		return subject;
 	}
-	public void setSubject(String subject) {
+	public void setSubject(Subject subject) {
 		this.subject = subject;
 	}
 	public int getPoint() {

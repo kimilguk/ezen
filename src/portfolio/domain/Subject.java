@@ -51,5 +51,10 @@ public class Subject {
 	public void setGradeType(int gradeType) {
 		this.gradeType = gradeType;
 	}
+
+	public void register(Student student) {
+		// 과목별 1명씩 학생을 등록하는 메서드
+		studentList.add(student);
+	}
 	
 }

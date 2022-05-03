@@ -35,7 +35,7 @@ public class GeneratorReport {
 			makeBody(subject);//학생 리스트 출력된다.
 			makeFooter();//1개 학생객체 출력이후 엔터처리
 		}
-		return null;
+		return buffer.toString();
 	}
 	private void makeFooter() {
 		// 1개 학생객체 출력이후 엔터처리
@@ -58,6 +58,9 @@ public class GeneratorReport {
 			case Define.MATH:
 				buffer.append("컴퓨터공학과");
 				break;
+			case Define.ART:
+				buffer.append("서양미술학과");
+				break;
 			default:
 				buffer.append("전공미지정");
 				break;
@@ -78,6 +81,7 @@ public class GeneratorReport {
 		//학생개인별 학점객체(국어,수학) 가져오기
 		ArrayList<Score> scoreList = student.getScorelist();
 		int majorId = student.getMajorSubject().getSubjectId();//학생별 전공과목ID별로 S, A 결정
+		//System.out.println(scoreList.size()+"여기");
 		//과목별 점수:예, 컴퓨터공학과 학생 전공과목ID 수학, 국어과목id의 점수리스트 확인)
 		for(Score score:scoreList) {
 			if(subjectId == score.getSubject().getSubjectId()) { //현재조건은 국어과목만 출력하는 조건

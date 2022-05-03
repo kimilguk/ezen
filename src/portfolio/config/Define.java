@@ -7,6 +7,7 @@ package portfolio.config;
 public class Define {
 	public static final int KOREA = 1001;//국어과목코드
 	public static final int MATH = 1002;//수학과목코드
+	public static final int ART = 1003;//수학과목코드
 	public static final int AF_TYPE = 0;//학점산출하는 방법코드(비전공과목)
 	public static final int SAF_TYPE = 1;//학점산출하는 방법코드(전공과목)
 }

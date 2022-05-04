@@ -22,7 +22,10 @@ public class ThreadA {
 		tB.start();
 		synchronized(tB) {
 			System.out.println("스레드 B가 종료되기를 기다림...");
+			System.out.println("tB객체 확인1: " + tB);
 			tB.wait();//499999998500000001
+			System.out.println("tB객체 확인2: " + tB);
+			tB.wait();
 			System.out.println("전체 합계: " + tB.total);
 		}
 	}

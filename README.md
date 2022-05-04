@@ -1,5 +1,19 @@
 ```
-포트폴리오 마친후 14장-17번째 슬라이드 이후 스레드 마무리
+https://github.com/miniplugin/ezen (수업전소스)
+https://github.com/kimilguk/ezen (수업후소스)
+
+동기화 하는 방법: (기본은 비동기화-파일다운로드,동영상재생 이다.)
+- 동기화예, 대용량파일 업로드, 안드로이드 앱에서 데이터(어댑터)화면처리
+- 메서드동기화: synchronized 메서드명() 
+- 객체동기화: synchronized(객체명)=wait(), notify()로 대기상태를 풀어준다
+
+이론 -> sudo코드(수도코드):가짜코드,유사코드
+https://blog.daum.net/web_design
+
+프로젝트 1번째 작업: 현황파악
+- 클래스다이어그램(자바용) : 자바코딩 기준
+- E(엔티티)-R(릴레이션)다이어그램(DB용): 자바코딩 기준
+
 포트폴리오(portfolio) 프로젝트(패키지) 제작
 - 성적산출 프로그램
 - 설정클래스(전역클래스): 프로그램전체에 영향을 주는 static 상수 클래스
@@ -185,7 +199,7 @@ OR연산(||파이프라인2개) 0(false)+0(false)=0
 0(false)+1(true)=1(true), 단, 논리연산에서는 1+1=1
 JDK8이상 설치: 오라클자바(라이센스)
 오픈자바 설치(오픈소스)
-인석****(netplwiz)
+인*****(netplwiz)
 다국어 프로그램 지원: 
 이클립스의 언어 설정(encoding) 변경
 최초(ms949) -> UTF-8(다국어지원)
@@ -196,4 +210,3 @@ long(기본형)null공백X
 김일국ghpkimilguk
 _pUbRCwXrkIPrLjgj5VY2huczEAlE591YqKJ1
 = Long(클래스:참조형 특징 null공백이 가능)
-```

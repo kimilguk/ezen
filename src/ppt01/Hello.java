@@ -1,8 +1,9 @@
 package ppt01;
 /**
- * 이 클래스는 1장의 연습용 기능의 클래스 이다.
- * new Hello hello = new Hello();
- * @author 402_S java Hello(.main())
+ * cmd 창에서 컴파일: javac -d . Hello.java -encoding UTF-8
+ * cmd 창에서 실행: java ppt01.Hello
+ * 윈도우용 jar파일을 cmd 창에서 실행: javaw -jar -Dfile.encoding=UTF-8 추가
+ * @author kimilguk
  *
  */
 public class Hello {
